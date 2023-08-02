@@ -535,3 +535,7 @@ p {
   color: white;
   text-decoration: none;
 }
+
+.carousel-control-prev-icon.override{
+  z-index:0;
+}
