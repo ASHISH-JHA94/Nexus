@@ -26,15 +26,19 @@
 }
 
 
-.c1 button {
+.c3 .c2 .c1 button {
   padding: 8px 16px;
   font-size: 16px;
   background-color: #013827;
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
-
+.c3 .c2 .c1 button:hover{
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  transform: scale(1.03);
+}
 
 
 
@@ -121,9 +125,4 @@ p{
   .column{
       padding-left: 7%;
   }
-}
-
-.btn1 a {
-  color: white;
-  text-decoration: none; /* Optional: To remove the underline on the link */
 }
